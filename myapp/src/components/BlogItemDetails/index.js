@@ -16,6 +16,7 @@ class BlogItemDetails extends Component {
   }
 
   getBlogsData = async () => {
+    console.log(this.props)
     try {
       const {match} = this.props
       const {params} = match
